@@ -1,0 +1,16 @@
+    {
+      "name": "Terraform Development",
+      "image": "mcr.microsoft.com/devcontainers/universal:latest",
+      "features": {
+        "ghcr.io/devcontainers/features/terraform:1": {
+          "version": "latest" // or specify a particular version like "1.5.7"
+        }
+      },
+      "customizations": {
+        "vscode": {
+          "extensions": [
+            "HashiCorp.terraform"
+          ]
+        }
+      }
+    }
